@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #ddd4e2;
+}
+
+h1 {
+    text-align:center;
+    color: #0a2d6b;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fef4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #0a2a36;
+    border-radius:8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+ 
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2c3031;
+}
+
+label{ 
+    display: block;
+    margin-top: 10px;
+    color:rgb(13, 54, 109);
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3a7ae9;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width:100%;
+    padding: 10px;
+    background-color: rgb(163, 170, 209);
+    color: black;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color:#3d4c68
+}
+
+.profilePicture{
+    display:block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow:0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 50%;
+    width: 150 px;
+    height:  150 px;
+    object-fit: cover;
+}
